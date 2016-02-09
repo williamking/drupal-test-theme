@@ -1,0 +1,76 @@
+
+/* ----- Page ----- */
+
+#logo {
+	display: inline-block;
+}
+
+#site-name-wrapper {
+	text-align: center;
+	height: 40px;
+}
+
+#site-name-wrapper h1 {
+	text-align: center;
+}
+
+/* ----- Main ----- */
+
+#main {
+	background-color: aliceblue;
+}
+
+#main table{
+	margin: 0 auto;
+	background-color: white;
+}
+
+#main table td {
+	min-width: 500px;
+	padding: 10px;
+}
+
+/* ----- Header ----- */
+#header {
+	background-color: aliceblue;
+	background-image: -webkit-linear-gradient(top, #0779bf 0%, rgba(72, 169, 228, 0.07) 100%);
+}
+
+.carousel {
+	display: inline-block;
+	width: 600px;
+	height: 230px;
+	margin-left: 10%;
+}
+
+.carousel img {
+	width: 600px;
+	height: 330px;
+}
+
+#logo {
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+#logo img {
+	width: 200px;
+	height: 200px;
+}
+
+/* ----- Sidebar ----- */
+
+#sidebar-first {
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+
+#sidebar-second {
+	border-left: 1px solid #ccc;
+}
+
+/* ---- Comment ----- */
+
+.comment {
+	border-bottom: 1px solid #ccc;
+}

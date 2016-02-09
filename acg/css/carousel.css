@@ -1,0 +1,92 @@
+.carousel {
+	position: relative;
+	height: 800px;
+	width: 1200px;
+}
+
+.carousel .carousel-list {
+	position: absolute;
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	margin-right: 400px;
+	margin: 0!important;
+	padding: 0!important;
+}
+
+.carousel .pic-item {
+	height: 100%;
+	width: 100%;
+	position: absolute;	
+	left: 0px;
+	box-shadow: 2px 2px 2px;
+	cursor: pointer;
+}
+
+.carousel .pic-item img{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.carousel .pic-item .pic-cover {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0;
+}
+
+.carousel .slide-button {
+	width: 100px;
+	height: 100px;
+	top: 40%;
+	display: inline-block;
+	background-color: black;
+	position: absolute;
+	opacity: 0.3;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.carousel .right:after, .carousel .right:before {
+	border: 20px solid transparent;
+	border-left: 20px solid; 
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	content: '';
+}
+
+.carousel .right:before {
+	border-left-color: #FFF;
+	right: 16px;
+	top: 30px;
+}
+
+.carousel .left:after, .carousel .left:before {
+	border: 20px solid transparent;
+	border-right: 20px solid; 
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 42px;
+	top: 30px;
+	content: '';
+}
+
+.carousel .left:before {
+	border-right-color: #FFF;
+	right: 46px;
+	top: 30px;
+}
+
+.carousel .left {
+	left: 20%;
+}
+
+.carousel .right {
+	right: 20%;
+}
